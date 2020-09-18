@@ -1,5 +1,5 @@
 module.exports = {
-  title: "渔网的收获",
+  title: "漂流瓶的牵念",
   description: "",
   markdown: {
     lineNumbers: true
