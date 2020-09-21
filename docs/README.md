@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: /user.jpg
+heroText: keep on learning
 tagline: 
 actionText: 开始阅读 →
 actionLink: /blog/

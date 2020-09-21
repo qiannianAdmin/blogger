@@ -11,17 +11,17 @@ module.exports = {
     repo: 'qiannianAdmin/blogger',
     nav: [
       {
-        text: "博客",
-        link: "/blog/",
+        text: '博客',
+        ariaLabel: '随记博客',
+        items: [
+          { text: 'PHP', link: '/blog/php/' },
+          { text: 'Linux', link: '/blog/linux/' }
+        ]
       },
       {
         text: "算法",
         link: "/arith/",
       },
-      // {
-      //   text: "面试题",
-      //   link: "/interview/",
-      // },
       {
         text: "阅读",
         link: "/book/",
@@ -63,25 +63,18 @@ module.exports = {
           title: "算法知识",
           collapsable: false,
           children: [
-            'arith-basic'
           ]
         },
         {
           title: "经典算法题",
           collapsable: false,
           children: [
-            'arith-written-everyDay'
           ]
         },
         {
           title: "探索源码系列",
           collapsable: false,
           children: [
-            'arith-source-debounce-throttle',
-            'arith-source-new',
-            'arith-source-call-bind-apply',
-            'arith-source-parse-stringify',
-            'arith-source-emitter'
           ]
         }
       ],
