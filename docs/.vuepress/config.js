@@ -5,10 +5,10 @@ module.exports = {
     lineNumbers: true
   },
   head: [
-    ['link', { rel: 'icon', href: '/user.png' }]
+    ['link', { rel: 'icon', href: '/user.jpg' }]
   ],
   themeConfig:{
-    repo: 'henryfordstick',
+    repo: 'qiannianAdmin/blogger',
     nav: [
       {
         text: "博客",

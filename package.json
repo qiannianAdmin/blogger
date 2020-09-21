@@ -7,7 +7,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "repository": "git@github.com:henryfordstick/henryblog.git",
+  "repository": "git@github.com:qiannianAdmin/blogger.git",
   "author": "henry",
   "license": "MIT",
   "devDependencies": {
