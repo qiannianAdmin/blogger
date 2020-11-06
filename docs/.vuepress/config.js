@@ -12,11 +12,7 @@ module.exports = {
     nav: [
       {
         text: '博客',
-        ariaLabel: '随记博客',
-        items: [
-          { text: 'PHP', link: '/blog/php/' },
-          { text: 'Linux', link: '/blog/linux/' }
-        ]
+        link: "/blog/",
       },
       {
         text: "算法",
@@ -26,27 +22,31 @@ module.exports = {
         text: "阅读",
         link: "/book/",
       },
+      {
+        text: "资源导航",
+        link: "/resource/",
+      },
     ],
     sidebar: {
       '/blog/':[
         {
-          title: '视野拓展',
+          title: 'PHP',
           collapsable: false,
         },
         {
-          title: 'Framework',
+          title: 'Docker',
           collapsable: false,
         },
         {
-          title: 'HTML/CSS',
+          title: 'Linux',
           collapsable: false,
         },
         {
-          title: 'JavaScript基础',
+          title: 'MySQL',
           collapsable: false,
         },
         {
-          title: '工程化',
+          title: 'Redis',
           collapsable: false,
         },
         {
@@ -88,7 +88,27 @@ module.exports = {
           title: "其他",
           collapsable: false,
         }
-      ]
+      ],
+      '/resource/':[
+        {
+          title: "优秀博客",
+          collapsable: false,
+          children: [
+          ]
+        },
+        {
+          title: "在线工具",
+          collapsable: false,
+          children: [
+          ]
+        },
+        {
+          title: "素材资源",
+          collapsable: false,
+          children: [
+          ]
+        }
+      ],
     },
     lastUpdated: "更新时间",
     docsDir: "docs",

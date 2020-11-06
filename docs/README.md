@@ -6,7 +6,7 @@ tagline:
 actionText: 开始阅读 →
 actionLink: /blog/
 features:
-  - title: 积累
+  - title: 知识积淀
     details: 平时的一些积累，一些上手即用的东西/知识点等内容，范围较广。
   - title: 面试题
     details: 自己经历的面试题，或者遇到的比较有趣的面试题。

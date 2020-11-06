@@ -1,0 +1,47 @@
+version: "3" #docker-compose的版本
+services:
+  node:
+    image: node:12-alpine #node的镜像名
+    working_dir: /var/www/html/dist #node的工作目录
+    volumes:
+    - .:/var/www/html/ #node的数据卷
+    ports:
+    - "8081:8081" #node
+    command: npm run server:start
+    networks:
+    - xy-net
+    - default
+    container_name: "re_node_1.0"
+    tty: true
+
+  nginx:
+    image: nginx:1.17
+    working_dir: /var/www/html/dist
+    ports:
+    - "80:80"
+    links:
+    - "node"
+    volumes:
+    - .:/var/www/html/
+    networks:
+    - xy-net
+    - default
+    container_name: "re_nginx_1.0"
+
+  mongo:
+    image: mongo:4.4.1
+    volumes:
+    - ./db:/var/www/html/db
+    ports:
+    - "27017:27017"
+    networks:
+    - xy-net
+    - default
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+    container_name: "re_mongo_1.0"
+
+networks:
+  xy-net:
+    external: true
