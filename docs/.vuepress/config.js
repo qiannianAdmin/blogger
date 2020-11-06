@@ -1,6 +1,6 @@
 module.exports = {
   title: "漂流瓶的牵念",
-  description: "",
+  description: "知识积淀",
   markdown: {
     lineNumbers: true
   },
@@ -28,36 +28,36 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/blog/':[
-        {
-          title: 'PHP',
-          collapsable: false,
-        },
-        {
-          title: 'Docker',
-          collapsable: false,
-        },
-        {
-          title: 'Linux',
-          collapsable: false,
-        },
-        {
-          title: 'MySQL',
-          collapsable: false,
-        },
-        {
-          title: 'Redis',
-          collapsable: false,
-        },
-        {
-          title: '编程基础',
-          collapsable: false,
-        },
+      // '/blog/':[
+      //   {
+      //     title: 'PHP',
+      //     collapsable: false,
+      //   },
+      //   {
+      //     title: 'Docker',
+      //     collapsable: false,
+      //   },
+      //   {
+      //     title: 'Linux',
+      //     collapsable: false,
+      //   },
+      //   {
+      //     title: 'MySQL',
+      //     collapsable: false,
+      //   },
+      //   {
+      //     title: 'Redis',
+      //     collapsable: false,
+      //   },
+      //   {
+      //     title: '编程基础',
+      //     collapsable: false,
+      //   },
         // {
         //   title: '总结思考',
         //   collapsable: false,
         // }
-      ],
+      //],
       '/arith/':[
         {
           title: "算法知识",

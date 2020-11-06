@@ -3,7 +3,7 @@ home: true
 heroImage: /user.jpg
 heroText: keep on learning
 tagline: 
-actionText: 开始阅读 →
+actionText: 快速开始 →
 actionLink: /blog/
 features:
   - title: 知识积淀
