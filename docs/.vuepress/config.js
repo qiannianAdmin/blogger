@@ -8,7 +8,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/user.jpg' }]
   ],
   themeConfig:{
-    repo: 'qiannianAdmin/blogger',
+    // repo: 'qiannianAdmin/blogger',
     nav: [
       {
         text: '博客',
